@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="utf-8">
+    <title>войти</title>
+  </head>
+  <body>
+      <header>
+        <ol>
+          <li><a href="index.php">Главная</a></li>
+          <li><a href="magazin.php">магазин</a></li>
+          <li><a href="add_post.html">добавить пост</a></li>
+          <li><a href="info.php">Инфо</a></li>
+        </ol>
+      </header>
+    <article class="full" style="height:420px;margin-bottom:5%;">
+      <center>
+        <form method="POST" action="add_post.php">
+          <p>введите путь к фотке которая будет как шапка поста</p>
+          <p>img/post/название картинки с расширением</p>
+          <p>пример:photo.png</p>
+          <input name="src">
+          <p>введите имя поста</p>
+          <input name="title">
+          <p>введите описание поста</p>
+          <textarea rows="15" cols="100" placeholder="в это окно пишите своё описание поста" name="content"></textarea>
+          <p>PS:автор берётся с вашего профиля</p>
+          <br>
+          <input type="submit">
+        <form>
+      </center>
+    </article>
+    <article class="full" class="article-content" style="text-align:right; width:78%; border:none;">Сайт посвящен магазину Ливерти © 2020. Надя Селивёрстова</article>
+  </body>
+</html>
